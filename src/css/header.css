@@ -1,0 +1,86 @@
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+}
+
+.nav-con {
+    background-color: #5E8A4D;
+    display: flex;
+    height: 72px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    align-items: center;
+}
+
+.nav-logo-link {
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1439.98px) {
+    .nav-list {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .nav-list {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+    }
+}
+
+
+.nav-list-link {
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+
+
+
+@media only screen and (max-width: 767.98px) {
+    .nav-btn-order {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-btn-order {
+    font-family: "Public Sans", sans-serif;
+    border: 1px solid #1a5901;
+    border-radius: 6px;
+    padding: 4px 24px;
+    width: 92px;
+    height: 32px;
+    margin-left: 32px;
+    background-color: #1a5901;
+    color: #fff;
+  }
+
+  .nav-btn-order:hover,
+  .nav-btn-order:focus {
+    background-color: #fff;
+    color: #010400;
+    border: 1px solid #fff;
+  }
+}
