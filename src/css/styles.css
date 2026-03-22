@@ -1,0 +1,39 @@
+/* ================= Reset ================= */
+
+@import './reset.css';
+
+/* ================= Header ================= */
+
+@import './header.css';
+
+/* ================= Hero ================= */
+
+@import './hero.css';
+
+/* ================= Mission ================= */
+
+@import './mission.css';
+
+/* ================= Benefits ================= */
+
+@import './benefits.css';
+
+/* ================= Assortment ================= */
+
+@import './assortment.css';
+
+/* ================= Feedbacks ================= */
+
+@import './feedbacks.css';
+
+/* ================= Faq ================= */
+
+@import './faq.css';
+
+/* ================= Contacts ================= */
+
+@import './contacts.css';
+
+/* ================= Footer ================= */
+
+@import './footer.css';
