@@ -1,39 +1,38 @@
 /* ================= Reset ================= */
 
-@import './reset.css';
+@import url('./reset.css');
 
 /* ================= Header ================= */
 
-@import './header.css';
+@import url('./header.css');
 
 /* ================= Hero ================= */
 
-@import './hero.css';
+@import url('./hero.css');
 
 /* ================= Mission ================= */
 
-@import './mission.css';
+@import url('./mission.css');
 
 /* ================= Benefits ================= */
 
-@import './benefits.css';
-
+@import url('./benefits.css');
 /* ================= Assortment ================= */
 
-@import './assortment.css';
+@import url('./assortment.css');
 
 /* ================= Feedbacks ================= */
 
-@import './feedbacks.css';
+@import url('./feedbacks.css');
 
 /* ================= Faq ================= */
 
-@import './faq.css';
+@import url('./faq.css');
 
 /* ================= Contacts ================= */
 
-@import './contacts.css';
+@import url('./contacts.css');
 
 /* ================= Footer ================= */
 
-@import './footer.css';
+@import url('./footer.css');
