@@ -1,35 +1,9 @@
-/* Styles for Mobile devices */
-/* .container {
-    min-width: 320px;
-    max-width: 375px;
-    margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px;
-} */
-
-/* Styles for Tablet devices */
-/* @media only screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 0 32px;
-    }
-} */
-
-/* Styles for Desktop devices */
-/* @media only screen and (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
-        padding: 0 64px;
-    }
-} */
-
 p {
     font-size: 18px;
 }
 
 .feedbacks-section {
     font-family: "Public Sans", sans-serif;    padding: 64px 0;
-    /* font-weight: 400; */
     font-size: 18px;
     line-height: 1.5;
     color: #010400;
@@ -40,11 +14,9 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* align-items: flex-start; */
 }
 
 .fb-title {
-    /* max-width: 343px; */
     font-family: "Chivo", sans-serif;
 
     font-weight: 400;
@@ -69,7 +41,6 @@ p {
 }
 
 .fb-section-desc {
-    /* max-width: 343px; */
     text-align: center;
     margin-bottom: 24px;
 }
@@ -99,7 +70,6 @@ p {
     display: flex;
     flex-direction: column;
     height: 314px;
-    /* width: 343px; */
     padding: 32px;
 
     border: 1px solid rgba(1, 4, 0, 0.15);
