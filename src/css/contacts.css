@@ -1,4 +1,4 @@
-.container {
+/* .container {
     max-width: 375px;
     padding: 0 16px;
     margin: 0 auto;
@@ -6,7 +6,7 @@
 
     outline: 2px solid red;
     outline-offset: -2px;
-}
+} */
 
 .contacts .container {
     padding-top: 64px;
@@ -36,8 +36,8 @@
         max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
-        outline: 2px solid red;
-        outline-offset: -2px;
+        /* outline: 2px solid red;
+        outline-offset: -2px; */
     }
 
     .contacts-right-side {
@@ -53,8 +53,8 @@
         column-gap: 24px;
         max-width: 1440px;
         padding: 112px 64px;
-        outline: 2px solid red;
-        outline-offset: -2px;
+        /* outline: 2px solid red;
+        outline-offset: -2px; */
     }
 
     .contacts-left-side{
