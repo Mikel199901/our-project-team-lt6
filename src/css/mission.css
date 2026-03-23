@@ -3,7 +3,8 @@
 }
 
 .mission-container {
-    padding: 64px 16px;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .mission-content {
@@ -44,7 +45,7 @@
 /* Tablet */
 @media screen and (min-width: 768px) {
     .mission-container {
-        padding: 100px 32px;
+        padding-top: 64px;
     }
 
     .mission-content {
