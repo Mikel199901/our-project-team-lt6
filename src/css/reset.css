@@ -43,18 +43,36 @@ img {
     height: auto;
 }
 
-/* ================= CONTAINER ================= */
+/* ================= Styles for Mobile devices ================= */
 
 .container {
-    width: 100%;
-    max-width: 375px;
+    min-width: 320px;
+    margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+/* ================= Styles for Tablet devices ================= */
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 0 32px;
+    }
+}
+
+/* ================= Styles for Desktop devices ================= */
+
+@media screen and (min-width: 1440px) {
+    .container {
+        padding: 0 64px;
+    }
 }
 
 /* ================= TYPOGRAPHY ================= */
+
+body {
+    font-family: "Public Sans", sans-serif;
+}
 
 h1 {
     font-size: 32px;
