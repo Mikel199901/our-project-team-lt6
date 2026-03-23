@@ -94,8 +94,24 @@
 .contacts-list {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     gap: 16px;
+}
+
+.contacts-item{
+    max-width: 219px;
+    height: 24px;
+    display: flex;
+    /* align-items: flex-start; */
+    /* justify-content: baseline; */
+}
+
+.icon-contacts-link{
+    top: 0;
+    left: 0;
+    display: block;
+    fill: #010400;
+    margin-right: 16px;
 }
 
 .contacts-link {
