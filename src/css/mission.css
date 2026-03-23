@@ -49,17 +49,21 @@
     .mission-content {
         flex-direction: row;
         align-items: flex-start;
-        gap: 32px;
+        gap: 24px;
         margin-bottom: 32px;
     }
 
     .mission-title {
-        flex-basis: calc((100% - 32px) / 2);
+        flex-basis: calc((100% - 24px) / 2);
         font-size: 48px;
+        padding-bottom: 17px;
     }
 
     .mission-text {
         flex-basis: calc((100% - 32px) / 2);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
     }
 }
 
@@ -77,7 +81,7 @@
 
     .mission-title {
         max-width: 640px;
-        font-size: 64px;
+        font-size: 48px;
     }
 
     .mission-text {
