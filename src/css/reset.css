@@ -47,7 +47,6 @@ img {
 
 .container {
     min-width: 320px;
-    max-width: 375px;
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
@@ -57,7 +56,6 @@ img {
 
 @media only screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
         padding: 0 32px;
     }
 }
@@ -66,12 +64,15 @@ img {
 
 @media only screen and (min-width: 1440px) {
     .container {
-        max-width: 1440px;
         padding: 0 64px;
     }
 }
 
 /* ================= TYPOGRAPHY ================= */
+
+body {
+    font-family: "Public Sans", sans-serif;
+}
 
 h1 {
     font-size: 32px;
