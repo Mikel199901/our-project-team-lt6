@@ -46,7 +46,7 @@ img {
 /* ================= Styles for Mobile devices ================= */
 
 .container {
-    min-width: 320px;
+    max-width: 375px;
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
@@ -54,7 +54,7 @@ img {
 
 /* ================= Styles for Tablet devices ================= */
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .container {
         padding: 0 32px;
     }
@@ -62,7 +62,7 @@ img {
 
 /* ================= Styles for Desktop devices ================= */
 
-@media screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
     .container {
         padding: 0 64px;
     }
