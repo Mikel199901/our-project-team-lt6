@@ -1,8 +1,6 @@
 .container-benefits {
     display: flex;
     flex-direction: column;
-    /* flex-direction: row; */
-    /* align-items: flex-start; */
     margin: 0 auto;
 }
 @media screen and (min-width: 1440px) {
@@ -18,30 +16,20 @@
      display: flex;
      flex-direction: column;
      text-align: left;
-     /* flex: 1; */
      min-width: 343px;
-     /* align-items: center; */
  }
 
  @media screen and (min-width: 768px) {
      .container-bf-title {
          margin: 0 auto;
-         /* text-align: left; */
      }
  }
 
  @media screen and (min-width: 1440px) {
      .container-bf-title {
-         /* flex-direction: row;
-         flex-wrap: wrap; */
-         /* margin-left: auto; */
-         /* flex: 1; */
          margin: 0;
          min-width: 644px;
-        align-items: flex-start;
-         /* align-items: flex-end; */
-         /* text-align: left; */
-         /* align-items: flex-start; */
+         align-items: flex-start;
 
      }
  }
@@ -65,7 +53,6 @@
 .benefits-img {
     display: block;
     width: 100%;
-    /* height: auto; */
     height: 487px;
     object-fit: cover;
     max-width: 343px;
@@ -105,19 +92,16 @@
 .benefits-title {
     max-width: 343px;
     margin: 24px 0;
-    /* text-align: left; */
 
     font-family: "Chivo", sans-serif;
     font-size: 36px;
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: -0.01em;
-    /* width: 343px; */
 }
 @media screen and (min-width: 768px) {
     .benefits-title {
         max-width: 704px;
-        /* align-items: flex-start; */
     }
 }
 @media screen and (min-width: 1440px) {
@@ -131,7 +115,6 @@
     max-width: 343px;
     margin: 0;
 
-    font-family: "Public Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
@@ -157,7 +140,6 @@
     margin: 0;
 }
 .benefits-text {
-    font-family: "Public Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -168,7 +150,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+
     gap: 32px;
     padding-left: 0;
     list-style-type: none;
@@ -182,7 +164,6 @@
         justify-content: center;
         gap: 32px 16px;
         align-items: baseline;
-        /* max-width: 344px; */
     }
 }
 @media screen and (min-width: 1440px) {
