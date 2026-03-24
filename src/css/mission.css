@@ -56,7 +56,7 @@
 
     .mission-title {
         flex-basis: calc((100% - 24px) / 2);
-        font-size: 48px;
+        font-size: 36px;
         padding-bottom: 17px;
     }
 
