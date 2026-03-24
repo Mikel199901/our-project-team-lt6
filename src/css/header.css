@@ -26,6 +26,8 @@
     padding-top: 6px;
     padding-bottom: 6px;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .nav-logo-link {
@@ -83,4 +85,35 @@
     color: #010400;
     border: 1px solid #fff;
   }
+}
+
+.nav-burger {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-burger {
+        width: 44px;
+        height: 44px;
+        margin-left: 16px;
+    }
+}
+
+
+
+@media only screen and (max-width: 767.98px) {
+    .nav-burger-icon {
+        width: 22px;
+        height: 16px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .nav-burger {
+        display: none;
+    }
 }
