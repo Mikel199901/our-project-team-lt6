@@ -43,6 +43,7 @@
         
     }
     .hero-btn {
+        
         max-width: 199px;
     }
 }
@@ -120,7 +121,7 @@ font-family: "Chivo", sans-serif;
         cursor: pointer;
         min-width: 199px;
         padding: 10px 0;
-        
+        border: 1px solid #fff;
             border-radius: 6px;
             height: 40px;
             background-color: #fff;
@@ -129,8 +130,8 @@ font-family: "Chivo", sans-serif;
 .hero-btn:hover,
 .hero-btn:focus,
 .hero-btn:active {
-background-color: #5e8a4d;;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.12);
+background-color: #5e8a4d;
+border: 1px solid #5e8a4d;
 }
 
 @media only screen and (min-width: 768px) {
