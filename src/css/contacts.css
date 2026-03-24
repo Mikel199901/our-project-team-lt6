@@ -81,6 +81,14 @@
     margin-bottom: 24px;
 }
 
+@media screen and (min-width:1440px) {
+    .contacts-title {
+            font-size: 48px;
+    }        
+}
+
+
+
 .contacts-about {
     font-size: 18px;
     line-height: 1.5;
@@ -280,6 +288,15 @@
     .btn.contacts-form-btn {
         max-width: 343px;
     }
+    .contacts-form {
+        margin-bottom: 24px;
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .contacts-form {
+            margin-bottom: 14px;
+        }
 }
 
 .btn.contacts-form-btn:hover,
