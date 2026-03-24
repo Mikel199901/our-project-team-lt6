@@ -220,6 +220,7 @@
     flex-direction: column;
     gap: 8px;
     width: 100%;
+
 }
 
 .contacts-message {
@@ -228,6 +229,7 @@
     height: 166px;
     background: transparent;
     border: 1px solid rgba(1, 4, 0, 0.15);
+    line-height: 1.5;
     color: #010400;
 }
 
