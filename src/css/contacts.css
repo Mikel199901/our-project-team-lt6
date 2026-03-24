@@ -175,6 +175,8 @@
     outline: none;
     border-bottom: 1px solid rgba(1, 4, 0, 0.15);
     padding: 8px 0px;
+
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-input-name::placeholder {
@@ -233,6 +235,8 @@
     border: 1px solid rgba(1, 4, 0, 0.15);
     line-height: 1.5;
     color: #010400;
+
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-message::placeholder {
@@ -241,12 +245,13 @@
 }
 
 .contacts-message:focus{
-    border: 1px solid rgba(1, 4, 0, 0.15);
+    outline: none;
     padding: 12px;
+    border: 1px solid rgba(1, 4, 0, 0.15);
 }
 
 .contacts-message:not(:placeholder-shown):invalid {
-    border-color: red;
+    border: 1px solid red;
 }
 
 .contacts-message:not(:placeholder-shown):invalid~.text-invalid-textarea {
