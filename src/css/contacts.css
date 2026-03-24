@@ -188,12 +188,14 @@
 }
 
 .text-invalid-name,
-.text-invalid-email{
+.text-invalid-email,
+.text-invalid-textarea{
     display: none;    
 }
 
 .text-invalid-name,
-.text-invalid-email{
+.text-invalid-email,
+.text-invalid-textarea{
     line-height: 1.5;
     color: #a00000;
 }
@@ -241,6 +243,14 @@
 .contacts-message:focus{
     border: 1px solid rgba(1, 4, 0, 0.15);
     padding: 12px;
+}
+
+.contacts-message:not(:placeholder-shown):invalid {
+    border-color: red;
+}
+
+.contacts-message:not(:placeholder-shown):invalid~.text-invalid-textarea {
+    display: block;
 }
 
 .btn.contacts-form-btn {

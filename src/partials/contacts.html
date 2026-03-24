@@ -66,9 +66,12 @@
           name="message"
           id="message"
           rows="10"
+          minlength="10"
           maxlength="500"
+          pattern="(/<[^>]*>/)"
           placeholder="Type your message..."
         ></textarea>
+        <p class="text-invalid-textarea">Error Text</p>
       </div>
       <button class="btn contacts-form-btn" type="submit">Submit</button>
     </div>
