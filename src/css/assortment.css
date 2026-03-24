@@ -1,7 +1,10 @@
+.assortment {
+    background-color: #d1ddcc;
+}
+
 .container {
     min-width: 320px;
     font-family: 'Montserrat';
-    background-color: #d1ddcc;
     display: flex;
     flex-direction: column;
     padding-top: 64px;
@@ -9,7 +12,7 @@
 }
 
 .assortment-top {
-    margin: 24px 0;
+    margin: 0 0 24px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -106,6 +109,7 @@
 }
 
 .assortment-button {
+    cursor: pointer;
     margin-top: auto;
     font-family: 'Public Sans';
     color: #010400;
@@ -166,6 +170,10 @@
         padding-bottom: 112px;
     }
 
+    .assortment-top {
+        margin-bottom: 32px;
+    }
+
     .assortment-img {
         max-width: 310px;
         width: 100%;
@@ -199,10 +207,10 @@
         font-weight: 600;
     }
 
-        .assortment-item-desc {
-            max-width: 236px;
-            width: 100%;
-        }
+    .assortment-item-desc {
+        max-width: 236px;
+        width: 100%;
+    }
 
     .assortment-button {
         max-width: 310px;
