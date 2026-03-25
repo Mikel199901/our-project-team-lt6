@@ -127,10 +127,7 @@
     border: 1px solid rgba(1, 4, 0, 0.15);
 }
 
-@media only screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
+@media screen and (min-width: 768px) {
 
     .assortment-list {
         gap: 16px;
@@ -163,8 +160,8 @@
     }
 }
 
-@media only screen and (min-width: 1440px) {
-    .container {
+@media screen and (min-width: 1440px) {
+    .assortment .container {
         max-width: 1440px;
         padding-top: 112px;
         padding-bottom: 112px;

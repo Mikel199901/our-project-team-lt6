@@ -14,8 +14,11 @@
     }
 }
 
-.nav-con {
+.header {
     background-color: #5E8A4D;
+}
+
+.nav-con {
     display: flex;
     height: 72px;
 }

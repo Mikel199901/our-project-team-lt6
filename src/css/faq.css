@@ -57,6 +57,7 @@
   fill: #ffffff;
   transition: transform 250ms ease;
 }
+
 details[open] .icon {
   transform: rotate(180deg);
 }
@@ -71,11 +72,12 @@ details[open] .icon {
 @media screen and (min-width: 768px) {
   .faq .container {
     max-width: 768px;
-    margin: 0 auto;
   }
+
   .faq-text {
     width: 362px;
   }
+  
 }
 
 @media screen and (min-width: 1440px) {

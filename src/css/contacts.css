@@ -27,7 +27,6 @@
 
 @media screen and (min-width:768px) {
     .container {
-        max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
         /* outline: 2px solid red;
@@ -44,7 +43,6 @@
         display: flex;
         flex-direction: row;
         column-gap: 24px;
-        max-width: 1440px;
         padding: 112px 64px;
     }
 
