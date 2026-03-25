@@ -87,8 +87,6 @@
     margin-bottom: 32px;
 }
 
-/* transition */
-
 .contacts-list {
     display: flex;
     flex-direction: column;
@@ -217,6 +215,7 @@
 }
 
 .contacts-message {
+    font-family: inherit;
     resize: none;
     padding: 12px;
     height: 166px;
