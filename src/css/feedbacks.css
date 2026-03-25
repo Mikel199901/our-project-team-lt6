@@ -2,12 +2,18 @@ p {
     font-size: 18px;
 }
 
-.feedbacks-section {
+.feedbacks {
     font-family: "Public Sans", sans-serif;    padding: 64px 0;
     font-size: 18px;
     line-height: 1.5;
     color: #010400;
     background-color: #e8eee5;
+}
+
+@media only screen and (min-width: 1440px) {
+    .feedbacks {
+        padding: 112px 0;
+    }
 }
 
 .container {
@@ -43,6 +49,12 @@ p {
 .fb-section-desc {
     text-align: center;
     margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 1440px) {
+    .fb-section-desc {
+        margin-bottom: 80px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -92,10 +104,6 @@ p {
     gap: 4px;
     margin-bottom: 24px;
 }
-
-.list-star-item {}
-
-.fb-text {}
 
 .user {
     display: flex;
