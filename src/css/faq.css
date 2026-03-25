@@ -68,7 +68,6 @@ details[open] .icon {
   border-bottom: none;
 }
 
-/* ================= TABLET (768px +) ================= */
 @media screen and (min-width: 768px) {
   .faq .container {
     max-width: 768px;
@@ -79,7 +78,6 @@ details[open] .icon {
   }
 }
 
-/* ================= DESKTOP (1440px +) ================= */
 @media screen and (min-width: 1440px) {
   .faq .container {
     max-width: 1440px;
