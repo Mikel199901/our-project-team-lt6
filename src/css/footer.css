@@ -36,7 +36,6 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-bottom: 24px;
 }
 @media only screen and (min-width: 1440px) {
   .footer-icon {
@@ -63,6 +62,7 @@
   list-style: none;
   padding: 0;
   margin: 24px 0;
+
   gap: 32px;
 }
 @media only screen and (min-width: 768px) {
@@ -85,7 +85,8 @@
   color: white;
 }
 
-.footer-nav-link:hover {
+.footer-nav-link:hover,
+.footer-nav-link:focus {
   opacity: 0.5;
 }
 
