@@ -43,8 +43,7 @@
         outline-offset: -2px; */
     }
 
-    .contacts-right-side {
-       
+    .contacts-right-side {      
         height:auto;
     }      
 }
@@ -105,7 +104,6 @@
 .contacts-list {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
     gap: 16px;
 }
 
@@ -114,12 +112,9 @@
     height: 24px;
     display: flex;
     align-items: flex-start;
-    /* justify-content: baseline; */
 }
 
 .icon-contacts-link{
-    /* top: 0;
-    left: 0; */
     display: block;
     fill: #010400;
     margin-right: 16px;
@@ -232,7 +227,6 @@
     flex-direction: column;
     gap: 8px;
     width: 100%;
-
 }
 
 .contacts-message {
@@ -310,8 +304,6 @@
 }
 
 .text-invalid{
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     color: #a00000;
 }
