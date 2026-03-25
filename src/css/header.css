@@ -60,6 +60,10 @@
     color: #fff;
 }
 
+.nav-list-link:hover {
+    opacity: 0.5;
+}
+
 
 
 
