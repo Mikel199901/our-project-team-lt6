@@ -71,11 +71,10 @@
 
 @media screen and (min-width:1440px) {
     .contacts-title {
-            font-size: 48px;
+        font-weight: 400;
+        font-size: 48px;
     }        
 }
-
-
 
 .contacts-about {
     font-size: 18px;
@@ -209,7 +208,6 @@
 .contacts-input-email:not(:placeholder-shown):invalid~.text-invalid-email {
     display: block;
 }
-
 
 .contacts-textarea {
     display: flex;
