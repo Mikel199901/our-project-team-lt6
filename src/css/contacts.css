@@ -1,9 +1,6 @@
 
 .contacts{ 
     background: #e8eee5;
-}
-
-.contacts .container {
     padding-top: 64px;
     padding-bottom: 64px;
 }
@@ -33,11 +30,14 @@
 }
 
 @media screen and (min-width:1440px) {
+    .contacts{
+        padding: 112px 64px;
+    }
+
     .contacts .container {
         display: flex;
         flex-direction: row;
         column-gap: 24px;
-        padding: 112px 64px;
     }
 
     .contacts-left-side{
