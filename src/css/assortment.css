@@ -1,5 +1,7 @@
 .assortment {
     background-color: #d1ddcc;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .assortment .container {
@@ -7,8 +9,6 @@
     font-family: 'Montserrat';
     display: flex;
     flex-direction: column;
-    padding-top: 64px;
-    padding-bottom: 64px;
 }
 
 .assortment-top {
@@ -71,7 +71,7 @@
 }
 
 .assortment-item-name {
-    width: 254px;
+    max-width: 254px;
     font-family: 'Public Sans';
     font-size: 1.13em;
     line-height: 150%;
@@ -161,10 +161,13 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .assortment .container {
-        max-width: 1440px;
+    .assortment {
         padding-top: 112px;
         padding-bottom: 112px;
+    }
+    
+    .assortment .container {
+        max-width: 1440px;
     }
 
     .assortment-top {

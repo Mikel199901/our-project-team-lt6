@@ -2,14 +2,16 @@
   width: 100%;
   background-color: #5e8a4d;
   color: #ffffff;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 .faq .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  padding: 64px 16px;
 }
+
 .faq-description {
   display: flex;
   flex-direction: column;
@@ -78,6 +80,7 @@ details[open] .icon {
 
 @media screen and (min-width: 1440px) {
   .faq .container {
+
     display: flex;
     flex-direction: row;
     gap: 83px;
