@@ -1,0 +1,88 @@
+.mission {
+    background-color: #5e8a4d;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+
+.mission-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.mission-title {
+    font-family: "Chivo", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+}
+
+.mission-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.mission-image-wrap {
+    overflow: hidden;
+}
+
+.mission-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .mission {
+        padding-top: 64px;
+    }
+
+    .mission-content {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 24px;
+        margin-bottom: 32px;
+        justify-content: space-between;
+    }
+
+    .mission-title {
+        flex-basis: calc((100% - 24px) / 2);
+        font-size: 36px;
+        padding-bottom: 17px;
+    }
+
+    .mission-text {
+        flex-basis: calc((100% - 32px) / 2);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1440px) {
+    .mission-container {
+        margin: 0 auto;
+        padding: 100px 64px;
+    }
+
+    .mission-content {
+        gap: 32px;
+    }
+
+    .mission-title {
+        max-width: 640px;
+        font-size: 48px;
+    }
+
+    .mission-text {
+        max-width: 640px;
+    }
+}
