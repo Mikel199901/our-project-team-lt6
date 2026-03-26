@@ -8,7 +8,7 @@
         <li class="contacts-item">
           <a href="mailto:hello@organicstore.com" class="contacts-link">
             <svg class="icon-contacts-link" width="24" height="24">
-              <use href="../public/icon.svg#mail"></use>
+              <use href="/public/icon.svg#mail"></use>
             </svg>
             hello@organicstore.com
           </a>
@@ -16,7 +16,7 @@
         <li class="contacts-item">
           <a href="tel:+1 (555) 329-1024" class="contacts-link">
             <svg class="icon-contacts-link" width="24" height="24">
-              <use href="../public/icon.svg#phone"></use>
+              <use href="/public/icon.svg#phone"></use>
             </svg>
             +1 (555) 329-1024
           </a>
@@ -28,41 +28,20 @@
       <div class="contacts-filds">
         <div class="contacts-fild">
           <label for="name" class="contacts-label">Name</label>
-          <input
-            class="contacts-input-name"
-            type="text"
-            id="name"
-            name="contacts_name"
-            placeholder="Sarah"
-            pattern="(^[a-zA-Z\s\.]{5,64}$)"
-            required
-          />
+          <input class="contacts-input-name" type="text" id="name" name="contacts_name" placeholder="Sarah"
+            pattern="(^[a-zA-Z\s\.]{5,64}$)" required />
           <p class="text-invalid-name">Error Text</p>
         </div>
         <div class="contacts-fild">
           <label for="email" class="contacts-label">Email</label>
-          <input
-            class="contacts-input-email"
-            type="email"
-            id="email"
-            name="contacts_email"
-            placeholder="hello@organic.com"
-            pattern="(^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$)"
-            required
-          />
+          <input class="contacts-input-email" type="email" id="email" name="contacts_email"
+            placeholder="hello@organic.com" pattern="(^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$)" required />
           <p class="text-invalid-email">Error Text</p>
         </div>
         <div class="contacts-textarea">
           <label class="feedback-label" for="message">Message </label>
-          <textarea
-            class="contacts-message"
-            name="message"
-            id="message"
-            rows="10"
-            minlength="2"
-            maxlength="500"
-            placeholder="Type your message..."
-          ></textarea>
+          <textarea class="contacts-message" name="message" id="message" rows="10" minlength="2" maxlength="500"
+            placeholder="Type your message..."></textarea>
           <p class="text-invalid-textarea">Error Text</p>
         </div>
         <button class="btn contacts-form-btn" type="submit">Submit</button>
@@ -71,13 +50,7 @@
   </div>
 
   <div class="contacts-right-side">
-    <img
-      srcset="../img/contacts.jpg 1x, ../img/contacts@2x.jpg 2x"
-      src="../img/contacts.jpg"
-      alt="foto people for contacts"
-      class="contacts-img"
-      width="100%"
-      height="100%"
-    />
+    <img srcset="/img/contacts.jpg 1x, /img/contacts@2x.jpg 2x" src="/img/contacts.jpg" alt="foto people for contacts"
+      class="contacts-img" width="100%" height="100%" />
   </div>
 </div>
