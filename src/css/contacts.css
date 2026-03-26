@@ -31,7 +31,13 @@
 
 @media screen and (min-width:1440px) {
     .contacts{
-        padding: 112px 64px;
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+
+    .contacts .container {
+        padding-left: 64px;
+        padding-right: 64px;;
     }
 
     .contacts .container {
