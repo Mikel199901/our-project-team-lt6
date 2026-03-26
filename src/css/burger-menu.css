@@ -1,0 +1,118 @@
+.burger-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1005;
+    background-color: #5f8f4f;
+    max-width: 100%; 
+    width: 375px;
+    padding: 24px 20px;
+    display: none; 
+   cursor: none;
+    flex-direction: column;
+}
+
+.mobile-logo-icon{
+    visibility: visible;
+}
+
+/* ЗАТЕМНЕНИЕ */
+.overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.35);
+  visibility:hidden;
+  transition:opacity .3s ease;
+  z-index:998;
+}
+
+.overlay.active{
+  opacity:1;
+  visibility:visible;
+}
+
+/* МЕНЮ ПОВЕРХ САЙТА */
+.mobile-menu {
+    background-color: #5f8f4f;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ШАПКА */
+.mobile-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+}
+
+/* НАВИГАЦИЯ */
+.mobile-nav-list{
+    color:#fff;
+  margin-top:80px;
+  display:flex;
+  flex-direction:column;
+  gap:28px;
+  font-size:18px;
+  text-align:center;
+  transform:translateY(12px);
+  padding-bottom: 32px;
+}
+
+
+@keyframes fadeSlide{
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+/* КНОПКА */
+.order-btn{
+  background:#1a5901;
+  color:#fff;
+  border:none;
+  padding:14px 0;
+  border-radius:8px;
+  font-size:18px;
+  cursor:pointer;
+  width:100%;
+  transform:translateY(12px);
+}
+
+
+.burger-menu.is-open {
+    display: flex;
+}
+@media screen and (min-width: 768px) {
+   .mobile-menu{
+    width: 286px;
+   }
+  .mobile-logo-icon{
+    visibility: hidden;
+  }
+  .burger-menu{
+    display: none;
+    justify-content: flex-end;
+  }
+  .mobile-nav{
+    margin-top:60px;
+    gap:24px;
+  }
+
+
+  .order-btn{
+    font-size:17px;
+    padding:13px 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .burger-menu {
+    display: none;
+  }
+}
