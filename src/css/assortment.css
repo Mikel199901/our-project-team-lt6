@@ -57,26 +57,37 @@
 
 .assortment-description {
     display: flex;
-    flex-direction: row;
-    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
     width: 100%;
     margin-bottom: 16px;
 }
 
 .assortment-items {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: end;
+}
+
+.assortment-items:first-child {
+    flex: 1;
+    min-width: 0;
+    align-items: flex-start;
+}
+
+.assortment-items:last-child {
+    flex: 0 0 auto;
+    align-items: flex-end;
 }
 
 .assortment-item-name {
-    max-width: 254px;
     font-family: 'Public Sans';
     font-size: 1.13em;
     line-height: 150%;
-    letter-spacing: 0%;
     font-weight: 600;
+    width: auto;
+    max-width: 100%;
+    overflow-wrap: break-word;
 }
 
 .assortment-item-price {
@@ -100,12 +111,12 @@
 
 .assortment-item-desc {
     font-family: 'Public Sans';
-    max-width: 269px;
-    width: 100%;
     font-size: 0.88em;
     line-height: 150%;
-    letter-spacing: 0%;
     font-weight: 400;
+    width: auto;
+    max-width: 100%;
+    overflow-wrap: break-word;
 }
 
 .assortment-button {
