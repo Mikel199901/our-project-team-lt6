@@ -70,10 +70,6 @@ details[open] .icon {
 }
 
 @media screen and (min-width: 768px) {
-  .faq .container {
-    max-width: 768px;
-  }
-
   .faq-text {
     width: 362px;
   }
@@ -82,7 +78,6 @@ details[open] .icon {
 
 @media screen and (min-width: 1440px) {
   .faq .container {
-    max-width: 1440px;
     display: flex;
     flex-direction: row;
     gap: 83px;
