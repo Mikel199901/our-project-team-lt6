@@ -84,6 +84,11 @@
   color: white;
 }
 
+.footer-social-link:hover,
+.footer-social-link:focus {
+  opacity: 0.5;
+}
+
 .footer-nav-link:hover,
 .footer-nav-link:focus {
   opacity: 0.5;
